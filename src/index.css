@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@300;400;600&display=swap');
+
+/* Define as cores e fontes customizadas usadas nas classes bg-ink, text-navy, font-montserrat, etc */
+@theme {
+  --color-ink: #121212;
+  --color-navy: #0A1930;
+  --color-cloud: #fafafa;
+  --font-inter: 'Inter', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
