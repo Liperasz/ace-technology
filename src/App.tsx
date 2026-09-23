@@ -1,25 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Home from './pages/Home'
-import ProductPage from './pages/ProductPage'
-import Profile from './pages/Profile'
+import { aulas } from './aulas/aulas'
+import Menu from './pages/Menu'
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-cloud flex flex-col min-h-screen font-inter">
-        <Header />
-        <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            {/* Uma rota só cobre droid, laptop e sunglasses via :slug */}
-            <Route path="/:slug" element={<ProductPage />} />
-            <Route path="/profile" element={<Profile />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
+      <Routes>
+        <Route path="/" element={<Menu />} />
+        {aulas.map((aula) => (
+          <Route key={aula.id} path={`/${aula.id}/*`} element={aula.element} />
+        ))}
+      </Routes>
     </BrowserRouter>
   )
 }

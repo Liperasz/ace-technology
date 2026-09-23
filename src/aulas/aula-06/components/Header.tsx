@@ -12,7 +12,7 @@ function Header() {
           <a href="#" className="no-underline hover:underline">BESPOKE</a>
         </nav>
 
-        <Link to="/">
+        <Link to="/aula-06">
           <img className="w-40 md:w-60 h-auto" src={logo} alt="Ace Group Technology" />
         </Link>
 
@@ -23,7 +23,7 @@ function Header() {
             className="w-full md:w-40 focus:w-full md:focus:w-80 py-2 text-xs tracking-[0.08em] bg-transparent border-0 border-b border-ink outline-none transition-all duration-300 focus:border-navy"
           />
           <a href="#" className="no-underline hover:underline">SHOPPING BAG</a>
-          <Link to="/profile" className="no-underline hover:underline">PROFILE</Link>
+          <Link to="/aula-06/profile" className="no-underline hover:underline">PROFILE</Link>
         </nav>
       </div>
     </header>

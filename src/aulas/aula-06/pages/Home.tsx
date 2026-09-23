@@ -44,7 +44,7 @@ function Home() {
               your every personal need with seamless elegance.
             </p>
             <Link
-              to="/droid"
+              to="/aula-06/droid"
               className="inline-block bg-transparent text-navy border border-navy p-4 font-inter font-semibold text-sm tracking-[0.25rem] rounded-2xl no-underline cursor-pointer transition-all duration-300 hover:bg-navy hover:text-cloud"
             >
               SEE MORE
@@ -59,7 +59,7 @@ function Home() {
               display.
             </p>
             <Link
-              to="/laptop"
+              to="/aula-06/laptop"
               className="inline-block bg-transparent text-navy border border-navy p-4 font-inter font-semibold text-sm tracking-[0.25rem] rounded-2xl no-underline cursor-pointer transition-all duration-300 hover:bg-navy hover:text-cloud"
             >
               SEE MORE
@@ -74,7 +74,7 @@ function Home() {
               recognition.
             </p>
             <Link
-              to="/sunglasses"
+              to="/aula-06/sunglasses"
               className="inline-block bg-transparent text-navy border border-navy p-4 font-inter font-semibold text-sm tracking-[0.25rem] rounded-2xl no-underline cursor-pointer transition-all duration-300 hover:bg-navy hover:text-cloud"
             >
               SEE MORE

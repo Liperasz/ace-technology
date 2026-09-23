@@ -18,7 +18,7 @@ function ProductPage() {
   const product = products.find((item) => item.slug === slug)
 
   if (!product) {
-    return <Navigate to="/" replace />
+    return <Navigate to="/aula-06" replace />
   }
 
   return (

@@ -20,7 +20,7 @@ function Footer() {
             <li><a href="#" className="font-inter font-light text-cloud no-underline tracking-[0.05em] transition-colors duration-300 hover:underline">Ace Living</a></li>
             <li><a href="#" className="font-inter font-light text-cloud no-underline tracking-[0.05em] transition-colors duration-300 hover:underline">Ace Auto</a></li>
             <li><a href="#" className="font-inter font-light text-cloud no-underline tracking-[0.05em] transition-colors duration-300 hover:underline">Ace Technology</a></li>
-            <li><Link to="/" className="font-inter font-light text-cloud no-underline tracking-[0.05em] transition-colors duration-300 hover:underline">Ace Watchmaking</Link></li>
+            <li><Link to="/aula-06" className="font-inter font-light text-cloud no-underline tracking-[0.05em] transition-colors duration-300 hover:underline">Ace Watchmaking</Link></li>
             <li><a href="#" className="font-inter font-light text-cloud no-underline tracking-[0.05em] transition-colors duration-300 hover:underline">Bespoke & Vault</a></li>
           </ul>
         </div>
